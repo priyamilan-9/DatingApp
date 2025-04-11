@@ -1,0 +1,13 @@
+<div class="container">
+<h1>Dating App</h1>
+<br/>
+<ul>
+    @for (user of users; track user.Id)
+    {
+        <li >
+            {{user.id}} - {{user.userName}}
+        </li>
+    }
+    
+</ul>
+</div>
